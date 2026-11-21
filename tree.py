@@ -308,7 +308,7 @@ def main():
         text1 = font.render("Merry Christmas", True, (255, 255, 255))
         screen.blit(text1, (40, HEIGHT // 3))
 
-        text2 = font.render("647", True, (255, 255, 255))
+        text2 = font.render("YML", True, (255, 255, 255))
         screen.blit(text2, (40, HEIGHT // 3 + text1.get_height() + 10))
 
         draw_snow2d(snow_surface, snow2d)
